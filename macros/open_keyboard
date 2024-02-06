@@ -1,0 +1,17 @@
+sendevent /dev/input/event3 3 57 123
+sleep 0
+sendevent /dev/input/event3 3 48 2
+sleep 0
+sendevent /dev/input/event3 3 53 204
+sleep 0
+sendevent /dev/input/event3 3 54 1361
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.16699
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0

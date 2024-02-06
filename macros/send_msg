@@ -1,0 +1,185 @@
+sendevent /dev/input/event3 3 57 124
+sleep 0
+sendevent /dev/input/event3 3 53 127
+sleep 0
+sendevent /dev/input/event3 3 54 1180
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.131128
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.20551
+sendevent /dev/input/event3 3 57 125
+sleep 0
+sendevent /dev/input/event3 3 48 3
+sleep 0
+sendevent /dev/input/event3 3 53 536
+sleep 0
+sendevent /dev/input/event3 3 54 1060
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.098555
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 1.01683
+sendevent /dev/input/event3 3 57 126
+sleep 0
+sendevent /dev/input/event3 3 53 581
+sleep 0
+sendevent /dev/input/event3 3 54 1274
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.11419
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.170919
+sendevent /dev/input/event3 3 57 127
+sleep 0
+sendevent /dev/input/event3 3 48 2
+sleep 0
+sendevent /dev/input/event3 3 53 687
+sleep 0
+sendevent /dev/input/event3 3 54 1086
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.098798
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.120661
+sendevent /dev/input/event3 3 57 128
+sleep 0
+sendevent /dev/input/event3 3 53 658
+sleep 0
+sendevent /dev/input/event3 3 54 1180
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.099159
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.864722
+sendevent /dev/input/event3 3 57 129
+sleep 0
+sendevent /dev/input/event3 3 53 185
+sleep 0
+sendevent /dev/input/event3 3 54 1108
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.131861
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.169669
+sendevent /dev/input/event3 3 57 130
+sleep 0
+sendevent /dev/input/event3 3 53 440
+sleep 0
+sendevent /dev/input/event3 3 54 1387
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.099603
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.257207
+sendevent /dev/input/event3 3 57 131
+sleep 0
+sendevent /dev/input/event3 3 48 3
+sleep 0
+sendevent /dev/input/event3 3 53 573
+sleep 0
+sendevent /dev/input/event3 3 54 1278
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.098384
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.119933
+sendevent /dev/input/event3 3 57 132
+sleep 0
+sendevent /dev/input/event3 3 48 2
+sleep 0
+sendevent /dev/input/event3 3 53 133
+sleep 0
+sendevent /dev/input/event3 3 54 1172
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.098476
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.188911
+sendevent /dev/input/event3 3 57 133
+sleep 0
+sendevent /dev/input/event3 3 53 367
+sleep 0
+sendevent /dev/input/event3 3 54 1189
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.081644
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.609826
+sendevent /dev/input/event3 3 57 134
+sleep 0
+sendevent /dev/input/event3 3 48 3
+sleep 0
+sendevent /dev/input/event3 3 53 651
+sleep 0
+sendevent /dev/input/event3 3 54 896
+sleep 0
+sendevent /dev/input/event3 1 330 1
+sleep 0
+sendevent /dev/input/event3 0 0 0
+sleep 0.065975
+sendevent /dev/input/event3 3 57 4294967295
+sleep 0
+sendevent /dev/input/event3 1 330 0
+sleep 0
+sendevent /dev/input/event3 0 0 0
