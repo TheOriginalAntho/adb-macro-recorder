@@ -24,6 +24,7 @@ record_macro() {
 }
 
 play_macro() {
+    adb $DEVICE_SPECIFIER root
     adb $DEVICE_SPECIFIER push "$MACRO_PATH/$MACRO_NAME" /mnt/sdcard/
     adb $DEVICE_SPECIFIER shell sh /mnt/sdcard/$MACRO_NAME
     adb $DEVICE_SPECIFIER shell rm /mnt/sdcard/$MACRO_NAME
@@ -67,7 +68,7 @@ create_macro_script() {
 displayUsage() {
     echo $1
     echo ""
-    echo "Usage: macroctl"
+    echo "Usage: adb-recorder"
     echo -e "\t--record: Record new macro"
     echo -e "\t--play: Play existing macro on device"
     echo -e "\t--name <NAME>: Define name of macro to be recorded/played"
@@ -98,6 +99,12 @@ while (( "$#" )); do
         "--play")
             play=1
             ;;
+        "--remove")
+            remove=1
+            ;;
+        "--list")
+            list=1
+            ;;
         *)
             displayUsage
             exit 1
@@ -106,6 +113,15 @@ while (( "$#" )); do
     
     shift
 done
+
+
+# if [ ! -z $remove ]; then
+#     # To be implemented
+# fi
+
+# if [ ! -z $list ]; then
+#     # To be implemented
+# fi
 
 if [ ! -z $record ]; then
     record_macro
