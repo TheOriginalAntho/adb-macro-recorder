@@ -1,6 +1,7 @@
 #!/bin/bash
 
-MACRO_PATH="macros/"
+BASEDIR=$(dirname "$0")
+MACRO_PATH="$BASEDIR/macros/"
 MACRO_NAME="macro"
 DEVICE_SPECIFIER=""
 
@@ -14,7 +15,7 @@ hex_to_decimal() {
 }
 
 record_macro() {
-    tmp_file="output.txt"
+    tmp_file="$BASEDIR/output.txt"
     echo "Recording '$MACRO_NAME'... Press CTRL+C when finished."
     adb $DEVICE_SPECIFIER shell getevent -t > $tmp_file
     # Remove first 8 lines that is headers
