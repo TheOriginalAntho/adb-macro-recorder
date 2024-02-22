@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASEDIR=$(dirname "$0")
-MACRO_PATH="$BASEDIR/macros/"
+MACRO_PATH="$BASEDIR/macros"
 MACRO_NAME="macro"
 DEVICE_SPECIFIER=""
 
